@@ -1,4 +1,5 @@
-package model;
+package com.backend.lab.model;
+
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -9,10 +10,10 @@ import lombok.Data;
 public class Pessoa {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private String name;
-
     private String cpf;
+
+    private String name;
 
     private int idade;
 }
+

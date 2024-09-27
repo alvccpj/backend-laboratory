@@ -1,6 +1,6 @@
 # API de Gerenciamento de Pessoas 
 
-Este projeto implementa uma API para o sistema de gerenciamento de pessoas. A aplicação tem uma única entidade, **Pessoa**, que contém os seguintes campos:
+Este projeto implementa uma API com os métodos http implementados(CRUD) para o sistema de gerenciamento de pessoas. A aplicação tem uma única entidade, **Pessoa**, que contém os seguintes campos:
 - **Nome**
 - **CPF**
 - **Idade**
